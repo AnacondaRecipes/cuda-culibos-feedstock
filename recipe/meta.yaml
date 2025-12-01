@@ -56,11 +56,14 @@ about:
   license: LicenseRef-NVIDIA-End-User-License-Agreement
   license_url: https://docs.nvidia.com/cuda/eula/index.html
   summary: The cuLIBOS library is a backend thread abstraction layer library.
-  description:
+  description: |
     The CUDA cuLIBOS static library is required to link against the static CUDA math libraries.
   doc_url: https://docs.nvidia.com/cuda/index.html
+  dev_url: https://docs.nvidia.com/cuda/index.html
 
 extra:
+  skip-lints:
+    - license_file_overspecified
   feedstock-name: cuda-culibos
   recipe-maintainers:
     - conda-forge/cuda
